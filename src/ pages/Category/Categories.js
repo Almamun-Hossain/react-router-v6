@@ -1,12 +1,8 @@
 import axios from "axios";
 import React, { Fragment, useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import Header from "../../components/Header";
-
-const active = {
-  color: "red",
-};
 
 function Categories() {
   const [categories, setCategories] = useState([]);
